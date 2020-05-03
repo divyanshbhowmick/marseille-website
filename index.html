@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Bell Bootstrap Template</title>
+  <title>The Resistance</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -34,7 +34,8 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -47,17 +48,18 @@
 </head>
 
 <body>
-	
+
 
   <!-- ======= Hero Section ======= -->
-  <section class="hero">
-    <div class="container text-center">
+  <section class="hero" style="padding:0 !important">
+    <div class=" container text-center">
       <div class="row">
         <div class="col-md-12">
-          <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="assets/img/logo main.png" width=100 height=100></a>
+          <a class="hero-brand" href="index.html" title="Home"><img alt="Marseille Logo" src="assets/img/logo main.png"
+              width=100 height=100></a>
         </div>
       </div>
-	
+
       <div class="col-md-12">
         <h1>
           The House of Marseille
@@ -66,12 +68,14 @@
         <p class="tagline">
           We are the outliers, but be sure to involve us otherwise things can get messy
         </p>
-        <a class="btn btn-full" href="#about">Get to Know The Resistance</a>
+        <audio id="sound1" src="assets/img/Bella Ciao.mp3" preload="auto"></audio>
+        <button class="btn btn-small" onclick="playSound()" style="display:block; margin: 20px auto;"><i id="onbutton"
+            class="fa fa-play fa-2x" aria-hidden="true"></i></button>
+        <a class="btn btn-full" href="#about">
+          <h4>Get to Know The Resistance</h4>
+        </a>
       </div>
-	<p></p>
-	<audio id="sound1" src="assets/img/Bella Ciao.mp3" preload="auto"></audio>
-  <button class="btn btn-full" onclick="document.getElementById('sound1').play();">Play
-  our Anthem</button>
+      <p></p>
     </div>
 
   </section><!-- End Hero -->
@@ -81,25 +85,32 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img src="assets/img/logo main.png" alt="" width=40 height=40></a>
+        <a href="index.html" style="text-decoration: none !important; color: white;"><img src="assets/img/logo main.png"
+            alt="" width=40 height=40>
+          <h4 style="display: inline;">Team Marseille</h4>
+        </a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Bell</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+        <ul class="nav-menu" style="float: right;">
+          <li><a href="#about">
+              <h4 style="display: inline;">About Us</h4>
+            </a></li>
+          <li><a href="#features">
+              <h4 style="display: inline;">House Members</h4>
+            </a></li>
+          <li><a href="#portfolio">
+              <h4 style="display: inline;">Gallery</h4>
+            </a></li>
+          <li><a href="#team">
+              <h4 style="display: inline;">Developers</h4>
+            </a></li>
+          <li><a href="#contact"></a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
-
-      <nav class="nav social-nav pull-right d-none d-lg-inline">
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-      </nav>
     </div>
   </header><!-- End Header -->
 
@@ -109,31 +120,41 @@
     <section class="about" id="about">
 
       <div class="container text-center">
-        <h2>
-          About Bell Theme
+        <h2 style="color: #bd1220;">
+          About Marseillians!
         </h2>
 
-        <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. Menandri
-          temporibus an duo.
-        </p>
+        <h3 style="line-height: 30px !important;">
+          We are prevasive but we stand united,
+          We might be adapting but we are farsighted.
+          <br />
+          We rule by sheer spirits of will and velliety.
+          Come what may be, we fear no adversity.
+          <br />
+          Marseille is in our hearts, we fear no city
+          Don't try a one up on us,
+          We are as bold as we are gritty.
+          <br />
+          We are creative, yet always curious
+          We stand tall, we stand glorious.
+        </h3>
 
         <div class="row stats-row">
           <div class="stats-col text-center col-md-3 col-sm-6">
             <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">232</span> Satisfied Customers
+              <span class="stats-no" data-toggle="counter-up">75</span>Team Members
             </div>
           </div>
 
           <div class="stats-col text-center col-md-3 col-sm-6">
             <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">79</span> Released Projects
+              <span class="stats-no" data-toggle="counter-up">1</span> Ongoing Projects
             </div>
           </div>
 
           <div class="stats-col text-center col-md-3 col-sm-6">
             <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">1,463</span> Hours Of Support
+              <span class="stats-no" data-toggle="counter-up">1</span>Moderator
             </div>
           </div>
 
@@ -149,360 +170,904 @@
 
     <!-- ======= Welcome Section ======= -->
     <section class="welcome text-center">
-      <h2>Welcome to a perfect theme</h2>
-      <p>
-        This is the most powerful theme with thousands of options that you have never seen before.
-      </p>
-      <img alt="Bell - A perfect theme" class="gadgets-img hidden-md-down" src="assets/img/gadgets.png">
+      <h2 class="title mb-3 text-center">Our Professor</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <!-- <img src="./assets/img/Aditya.jpg" alt="Image" class="img-fluid rounded"> -->
+        
+          </div>
+        </div>
+      </div>
     </section><!-- End Welcome Section -->
 
-     <!-- ======= Features Section ======= -->
-     <section class="features" id="features">
+    <!-- ======= Features Section ======= -->
+    <section class="features" id="features">
 
       <div class="container">
         <h2 class="text-center">
           House Members
-		</h2>
-		
-		<!--Carousel Wrapper-->
-		<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+        </h2>
 
-			<!--Controls-->
-			<div class="row justify-content-center text-center" style="margin-bottom: 30px;margin-top: 0;">
-				<div class="col-1">
-					<div class="controls-top">
-						<a href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-						
-					</div>
-				</div>
-				<div class="col-1">
-					<a href="#multi-item-example" data-slide="next"><i
-						class="fa fa-chevron-right"></i></a>
-				</div>
-			</div>
-			
-			<!--/.Controls-->
-		
-			<!--Indicators-->
-			<ol class="carousel-indicators">
-			<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-			<li data-target="#multi-item-example" data-slide-to="1"></li>
-			
-			</ol>
-			<!--/.Indicators-->
-		
-			<!--Slides-->
-			<div class="carousel-inner" role="listbox">
-		
-			<!--First slide-->
-			<div class="carousel-item active">
-				<div class="row">
-					<div class="feature-col col-md-2 offset-md-1" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center"> 
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
+          <!--Controls-->
+          <div class="row justify-content-center text-center" style="margin-bottom: 30px;margin-top: 0;">
+            <div class="col-1">
+              <div class="controls-top">
+                <a href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
 
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-					
-					
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
+              </div>
+            </div>
+            <div class="col-1">
+              <a href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+            </div>
+          </div>
 
-				</div>
+          <!--/.Controls-->
 
-				<div class="row">
-					<div class="feature-col col-md-2 offset-md-1" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center"> 
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
 
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
+          </ol>
+          <!--/.Indicators-->
 
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-					
-					
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/.First slide-->
-		
-			<!--Second slide-->
-			<div class="carousel-item">
-				<div class="row">
-					<div class="feature-col col-md-2 offset-md-1" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center"> 
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
 
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/2.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Aditi Singh</h3>
+                      <p>Too Patient</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/3.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Ankita Singh</h3>
+                      <p>Likes helping people</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/4.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Apratim Ghosh</h3>
+                      <p>Makes Youtube Videos and short films</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/5.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Afshin Rose Haque</h3>
+                      <p>Very situation friendly</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/6.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Samim Mondal</h3>
+                      <p>Can change from silent to bold in a moment</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/7.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Abhishek Singh</h3>
+                      <p>Loves learning new things</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/8.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Suraj Kumar Mishra</h3>
+                      <p>Very energetic</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/9.png" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Aakarsh Ranjan Sinha</h3>
+                      <p>Preseverance</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/10.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Antra</h3>
+                      <p>Optimistic</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/11.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Tushar Bhal</h3>
+                      <p>Acceptance and believes in himself</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.First slide-->
+          
+            <!--Second slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/12.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Aryabhatt</h3>
+                      <p>Tries to do everything perfectly</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/13.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Subhaditya Mukherjee</h3>
+                      <p>A passionate learner</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/14.png" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Arpan Chowdhury</h3>
+                      <p>Friendly and creative</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/15.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Ritwik Pal</h3>
+                      <p>Very tenacious</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/16.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Ayush Kumar</h3>
+                      <p>Loves traveling</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/17.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Anubhav Sinha</h3>
+                      <p>Is not afraid of failure</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/18.png" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Niharika Lath</h3>
+                      <p>A great listener</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/19.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Priyanka Raj</h3>
+                      <p>Optimistic in every situation</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/20.jpeg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Kiran Patra</h3>
+                      <p>Does not give up easily</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/21.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Shivam Sharma</h3>
+                      <p>Loves solving problems</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Second slide-->
+      
+              <!--Third slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/22.jpeg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Shreya Banerjee</h3>
+                      <p>Unbelievably patient and hopelessly optimistic</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/23.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Abhilash Nair</h3>
+                      <p>Ambitious and patient</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/24.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Karn Shreekant</h3>
+                      <p>Leadership and Creative roles makes him happy and not at all paranoid</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/25.jpeg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Rahul Bhardwaj</h3>
+                      <p>Extremely trustworthy</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/26.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Aditya Mohan</h3>
+                      <p>Stubborn and innovative</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/27.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Bijeet Ojha</h3>
+                      <p>Always ready for any kind of task</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/28.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Akshita Jha</h3>
+                      <p>Very positive towards life</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/29.jpeg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Meghna Singh</h3>
+                      <p>Keeps things exceptionally organized</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/30.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Rahul Kundu </h3>
+                      <p>Find a way out of every situation</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            
+            <!--Fourth slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/31.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Saksham kulshrestha</h3>
+                      <p>I write and I'm a published poet </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/32.jpg" class="team-member-image">	
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Durga Paul</h3>
+                      <p>I am empathetic towards others.</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/33.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Shushant Ghosh</h3>
+                      <p>Creativist!!!-- If that's a word</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/34.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Piyush Sahu</h3>
+                      <p>I love challenges and even when I lose them because that help me to prepare better for the next. </p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/35.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Aman chaudhary</h3>
+                      <p>I'm a quick learner</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/36.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Kanishka Gupta</h3>
+                      <p>I always try to think rationally and practically</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/37.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Akash Pandey</h3>
+                      <p>Quick Lerner and Listner</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/38.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Hirendra Ruprela</h3>
+                      <p>Openness to learn</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/39.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Ishan Gupta</h3>
+                      <p>Can code anything !</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/40.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Arnab Gayen </h3>
+                      <p>I am helpful in nature</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Fourth slide-->
+            
+            
+            <!--Fifth slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/41.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Ishan Jaiswal</h3>
+                      <p>Understanding people</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/42.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Hritik singh</h3>
+                      <p>fast learner</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/43.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Vivek Agarwal</h3>
+                      <p>A very passionate person who always strives to achieve higher goals.</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/44.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Shivanshu Rastogi</h3>
+                      <p>I don't allow the choas to go out , I stay shut as everything is cool. What I waana say is I don't panic.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/45.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Ayush Mishra</h3>
+                      <p>Always try to get the job done</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/46.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Sunidhi Srivastava</h3>
+                      <p>I am a good Planner and I manage multiple works and priorities them so that I can complete them in time rather than leaving the least important work among them.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/47.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Somaprita Chakraborty</h3>
+                      <p>Always up for parties</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/48.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Lopamudra Samantray</h3>
+                      <p>Holding unto the belief that one should never lose hope even in the most testing times .</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/49.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Subhayan Mukherjee</h3>
+                      <p>I try to learn something when there is nothing to learn</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/50.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Priyanshu Chakraborty</h3>
+                      <p>I'm not afraid of failure. In fact, I think it is an essential part of the experimental process that gets you to success</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Fifth slide-->
+            
+            <!--Sixth slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-1" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/51.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Arka Dutta</h3>
+                      <p>Dedication to assigned tasks</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/52.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Kamakshi Thakur</h3>
+                      <p>I have a very curious mind and I like learning new things.</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/53.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Nitya Jain</h3>
+                      <p>I am a very confident, determined and a hardworking girl. 
+                        </p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/54.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Sagnik Mukherjee</h3>
+                      <p>nothing unique</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/55.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Barkha Sinha</h3>
+                      <p>I have 33 teeth. I still have a milk teeth left.</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="row">
+                <div class="feature-col col-md-2 offset-md-4" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center"> 
+                      <img src="./assets/img/Members/56.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Saptarshi Sinha</h3>
+                      <p>Empathetic and resilient with an enormous drive towards my goals</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/57.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">Divyansh Bhowmick</h3>
+                      <p>Master of circuits and web</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/58.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">name</h3>
+                      <p>One line description</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/59.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">name</h3>
+                      <p>One line description</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="feature-col col-md-2" style="float:left">
+                  <div class="card card-block text-center">
+                    <div class="team-member-icon text-center">
+                      <img src="./assets/img/Members/60.jpg" class="team-member-image">
+                    </div>
+            
+                    <div>
+                      <h3 class="text-center">name</h3>
+                      <p>One line description</p>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <!--/.Sixth slide-->
 
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-					
-					
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
 
-				</div>
 
-				<div class="row">
-					<div class="feature-col col-md-2 offset-md-1" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center"> 
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
+          </div>
+          <!--/.Slides-->
 
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-					
-					
-					<div class="feature-col col-md-2" style="float:left">
-						<div class="card card-block text-center">
-							<div class="team-member-icon text-center">
-								<img src="./assets/img/cover.jpg" class="team-member-image">	
-							</div>
-			
-							<div>
-								<h3 class="text-center">name</h3>
-								<p>One line description</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/.Second slide-->
-		
-			
-		
-			</div>
-			<!--/.Slides-->
-		
-		</div>
-		<!--/.Carousel Wrapper-->
+        </div>
+        <!--/.Carousel Wrapper-->
     </section><!-- End Features Section -->
 
+
     <!-- ======= Call to Action Section ======= -->
-    <section class="cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 col-sm-12 text-lg-left text-center">
-            <h2>
-              Call to Action Section
-            </h2>
+    <section class="text-center">
+      <h2 style="color: #bd1220 !important;">Watch US!</h2>
 
-            <p>
-              Lorem ipsum dolor sit amet, nec ad nisl mandamus imperdiet, ut corpora cotidieque cum. Et brute iracundia his, est eu idque dictas gubergren
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-sm-12 text-lg-right text-center">
-            <a class="btn btn-ghost" href="#">Buy This Theme</a>
-          </div>
-        </div>
+      <div class="video-container">
+        <iframe width="1040" height="490" src="https://www.youtube.com/embed/klZNNUz4wPQ" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section><!-- End Call to Action Section -->
 
@@ -511,162 +1076,13 @@
 
       <div class="container text-center">
         <h2>
-          Portfolio
+          Gallery
         </h2>
-
-        <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, Per nihil dicant commodo an.
-        </p>
       </div>
 
       <div class="portfolio-grid">
         <div class="row">
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-1.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-1.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-2.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-2.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-3.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-3.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-4.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-4.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-5.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-5.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-6.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-6.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-7.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-7.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-8.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-8.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
+          <img src="/assets/img/gallery.jpg" style="height: 10%; width: 100%;"> </div>
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -674,15 +1090,16 @@
     <section class="team" id="team">
       <div class="container">
         <h2 class="text-center">
-          Meet our team
+          Our Developers!
         </h2>
 
         <div class="row">
+
           <div class="col-sm-3 col-xs-6">
             <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="assets/img/team-1.jpg">
+              <a href="#"><img alt="" class="team-img" src="assets/img/Developers/divyansh.jpg">
                 <div class="card-title-wrap">
-                  <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                  <span class="card-title">Divyansh Bhowmick</span><span class="card-text">Web Developer</span>
                 </div>
 
                 <div class="team-over">
@@ -691,22 +1108,22 @@
                   </h4>
 
                   <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
+                      href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
                   </nav>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
+              
                 </div>
               </a>
             </div>
           </div>
 
+
           <div class="col-sm-3 col-xs-6">
             <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="assets/img/team-2.jpg">
+              <a href="#"><img alt="" class="team-img" src="assets/img/Developers/saptarshi.jpg">
                 <div class="card-title-wrap">
-                  <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                  <span class="card-title">Saptarshi Sinha</span> <span class="card-text">Web Developer</span>
                 </div>
 
                 <div class="team-over">
@@ -715,12 +1132,10 @@
                   </h4>
 
                   <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
+                      href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
                   </nav>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
                 </div>
               </a>
             </div>
@@ -728,9 +1143,9 @@
 
           <div class="col-sm-3 col-xs-6">
             <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="assets/img/team-3.jpg">
+              <a href="#"><img alt="" class="team-img" src="./assets/img/Developers/barkha.jpg">
                 <div class="card-title-wrap">
-                  <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                  <span class="card-title">Barkha Sinha</span> <span class="card-text">Web Developer</span>
                 </div>
 
                 <div class="team-over">
@@ -739,12 +1154,10 @@
                   </h4>
 
                   <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
+                      href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
                   </nav>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
                 </div>
               </a>
             </div>
@@ -752,9 +1165,9 @@
 
           <div class="col-sm-3 col-xs-6">
             <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="assets/img/team-4.jpg">
+              <a href="#"><img alt="" class="team-img" src="./assets/img/Developers/abhilash.jpg">
                 <div class="card-title-wrap">
-                  <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                  <span class="card-title">Abhilash Nair</span> <span class="card-text">Web Developer</span>
                 </div>
 
                 <div class="team-over">
@@ -763,82 +1176,95 @@
                   </h4>
 
                   <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
+                      href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
                   </nav>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
+                  
                 </div>
               </a>
             </div>
           </div>
+
+          
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 col-xs-6">
+            <div class="card card-block">
+              <a href="#"><img alt="" class="team-img" src="./assets/img/Developers/apratim.jpg">
+                <div class="card-title-wrap">
+                  <span class="card-title">Apratim Ghosh</span> <span class="card-text">Video Editor</span>
+                </div>
+
+                <div class="team-over">
+                  <h4 class="hidden-md-down">
+                    Connect with me
+                  </h4>
+
+                  <nav class="social-nav">
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
+                      href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+                  </nav>
+
+                  
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6 ">
+            <div class="card card-block">
+              <a href="#"><img alt="" class="team-img" src="./assets/img/Developers/arpan.png">
+                <div class="card-title-wrap">
+                  <span class="card-title">Arpan Chowdhury </span> <span class="card-text">Video Editor</span>
+                </div>
+
+                <div class="team-over">
+                  <h4 class="hidden-md-down">
+                    Connect with me
+                  </h4>
+
+                  <nav class="social-nav">
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
+                      href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+                  </nav>
+
+                  
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6 ">
+            <div class="card card-block">
+              <a href="#"><img alt="" class="team-img" src="./assets/img/Developers/saksham.jpg">
+                <div class="card-title-wrap">
+                  <span class="card-title">Saksham Kulshrestha</span> <span class="card-text">Content writer</span>
+                </div>
+
+                <div class="team-over">
+                  <h4 class="hidden-md-down">
+                    Connect with me
+                  </h4>
+
+                  <nav class="social-nav">
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
+                      href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+                  </nav>
+
+                  
+                </div>
+              </a>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-title">Contact Us</h2>
-          </div>
-        </div>
 
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-md-4">
-            <div class="info">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
-
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validate"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -850,45 +1276,8 @@
 
           <div class="col-lg-6 col-xs-12 text-lg-left text-center">
             <p class="copyright-text">
-              &copy; Copyright <strong>Bell</strong>. All Rights Reserved
+              &copy; Copyright <strong>Team Marseille</strong>. All Rights Reserved
             </p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
-            -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="index.html">Home</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#about">About Us</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#features">Features</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#portfolio">Portfolio</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#team">Team</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
           </div>
 
         </div>
@@ -897,10 +1286,29 @@
   </footer><!-- End Footer -->
 
   <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
+  <script>
+    function playSound() {
+      var myAudio = document.getElementById('sound1');
+      if (myAudio.paused) {
+        myAudio.play();
+        document.getElementById("onbutton").className = "fa fa-pause fa-2x";
+      }
+      else {
+        myAudio.pause();
+        document.getElementById("onbutton").className = "fa fa-play fa-2x";
+      }
+    }
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
   <!-- Vendor JS Files -->
   <!-- <script src="assets/vendor/jquery/jquery.min.js"></script> -->
   <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->

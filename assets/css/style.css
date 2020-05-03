@@ -490,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ==================================================
   Welcome Styling
   ================================================== */
-.welcome {
+/* .welcome {
   color: #fff;
   height: 490px;
   overflow: hidden;
@@ -506,8 +506,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 .welcome p {
   color: #fff;
   margin-bottom: 45px;
+} */
+
+.welcome h2 {
+  /* text-transform: uppercase; */
+  margin-bottom: 15px;
+  color: #bd1220;
 }
 
+.moderator-image {
+  height: 200px !important;
+  width: 200px !important;
+  border-radius: 50% !important;
+}
 /* ==================================================
   Features Styling
   ================================================== */
@@ -548,8 +559,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 120px;
   width: 120px;
   border-radius: 50%;
+  background-size: contain;
 }
-
+.fa {
+  color: #bd1220;
+}
 
 .feature-col h3 {
   color: #bd1220;
@@ -750,6 +764,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team .card-title-wrap .card-text {
   font-size: 18px;
   color: #999;
+}
+
+.team-img {
+  height: 350px;
+
 }
 
 /* ==================================================
